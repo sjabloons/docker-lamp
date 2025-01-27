@@ -5,9 +5,7 @@ $errors = [];
 
 $errors = [];
 $upload_dir = "uploads/";
-print '<pre>';
-print_r($_FILES);
-print '</pre>';
+
 
 $items = getDbImages();
 if (isset($_POST["formSubmit"])) {
